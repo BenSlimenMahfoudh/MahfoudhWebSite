@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- ===== BOX ICONS ===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+        <title>Ben Slimen Mahfoudh</title>
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav   class ="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">YourName</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home" id="home">
+                <div class="home__container bd-grid">
+                    <h1 class="home__title"><span>Hi.I'm </span><br>YourName</h1>
+
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-link"><i class='bx bx-up-arrow-alt' ></i>Scroll down</a>
+                    </div>
+
+                </div>
+            </section>
+            
+            <!--===== ABOUT =====-->
+            <section class="about section" id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div     >
+                        <img   class="about__img" src="assets/img/person.png" alt="">
+                    </div>
+
+                    <div>
+                        <h2 class="about__subtitle">I'am  ........</h2>
+                        <span class="about__profession">Computer Systems Engineering Student</span>
+                        <p class="about__text">  I am a computer systems engineering student, I am able to realize an iot system with web and mobile applications.
+                            I work on several projects (iot, web app, mobile app ...) in my career in the faculty, and in my professional life.</p>
+
+                        <div class="about__social">
+                            <a href="#" class="about__social-icon"><i class='bx bxl-linkedin' ></i></a>
+                            <a href="#" class="about__social-icon"><i class='bx bxl-github' ></i></a>
+                            <a href="#" class="about__social-icon"><i class='bx bxl-facebook' ></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="skills-title">Skills</h2>
+
+                <div class="skills__container bd-grid">
+                    <div class="skills__box">
+                        <h3 class="skills__subtitle">Development</h3>
+                        <span class="skills__name">Html</span>
+                        <span class="skills__name">Css</span>
+                        <span class="skills__name">Javascript</span>
+                        <span class="skills__name">NodeJS</span>
+                        <span class="skills__name">ReactJS</span>
+                        
+                        <h3 class="skills__subtitle">programming language</h3>
+                        <span class="skills__name">Python</span>
+                        <span class="skills__name">Java</span>
+                        <span class="skills__name">C</span>
+
+                        <h3 class="skills__subtitle">Embedded systems & SIOT</h3>
+                        <span class="skills__name">Ardiuno</span>
+                        <span class="skills__name">Raspberry Pi</span>
+                        <span class="skills__name">MQTT</span>
+                        <span class="skills__name">Vhdl</span>
+
+                        <h3 class="skills__subtitle">Tools</h3>
+                        <span class="skills__name">Visual Studio Code</span>
+                        <span class="skills__name">Ardiuno IDE</span>
+                        <span class="skills__name">Android Studio</span>
+                        <span class="skills__name">Adobe PhotoShope</span>
+                        <span class="skills__name">Adobe Premiere Pro</span>
+
+                        <h3 class="skills__subtitle">Cultural and sports</h3>
+                        <span class="skills__name">Football</span>
+                        <span class="skills__name">Theater</span>
+
+                       
+                    </div>
+
+                    
+                </div>
+            </section>
+
+            <!--===== project =====-->
+            <section class="project section" id="projects">
+                <h2 class="section-title">Projects</h2>
+
+                <div class="project__container bd-grid">
+                    <div class="project__img">
+                        <img src="assets/img/project.jpg" alt="">
+
+                        <div class="project__link">
+                            <a href="" class="project__link-name"><span class="project__subtitle">project 1</span><br>more details<br><br> View details</a>
+                        </div>
+                    </div>
+                    <div class="project__img">
+                        <img src="assets/img/project.jpg" alt="">
+
+                        <div class="project__link">
+                            <a href="#" class="project__link-name"><span class="project__subtitle">project 2</span> <br>more details<br><br>View details</a>
+                        </div>
+                    </div>
+                    <div class="project__img">
+                        <img src="assets/img/project.jpg" alt="">
+
+                        <div class="project__link">
+                            <a href="#" class="project__link-name"><span class="project__subtitle">project 3</span><br> more details <br><br>View details</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+                    <section class="project section" id="projects">
+                    <h2 class="section-title">Workshops</h2>
+
+                <div class="project__container bd-grid">
+
+                    <div class="project__img">
+                        <img src="assets/img/workshop.jpg" alt="">
+
+                        <div class="project__link">
+                            <a href="#"
+                             class="project__link-name"><span class="project__subtitle">WorkShop 1</span><br> more details <br><br>View details</a>
+                        </div>
+                    </div>
+                    <div class="project__img">
+                        <img src="assets/img/workshop.jpg" alt="">
+
+                        <div class="project__link">
+                            <a href="#" class="project__link-name"><span class="project__subtitle"> WorkShop 2 </span><br> more details <br><br>View details</a>
+                        </div>
+                    </div>
+                    <div class="project__img">
+                        <img src="assets/img/workshop.jpg" alt="">
+
+                        <div class="project__link">
+                            <a href="#" class="project__link-name"><span class="project__subtitle">WorkShop 3</span><br> more details <br><br>View details</a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+
+            <!-- ======== expreiense ========== -->
+            <section class="exp section" id="skills">
+                <h2 class="exp-title darck">Experiences</h2>
+
+                <div class="exp__container bd-grid">
+                    <div class="exp__box">
+                        <div class="info">
+                            <h3 class="exp__subtitle">INTERNSHIP</h3>
+                            <span class="exp-name">EXp 1111</span><br>
+                            <span class="exp-date">15 Feb 2023 - 15 Juin 2023</span>
+                        </div>
+                        <div class="leftExp">
+                           <a href="#">view more</a>
+                        </div>
+                    </div>
+
+                    <div class="exp__box">
+                        <div class="info">
+                            <h3 class="exp__subtitle">PRESIDENT</h3>
+                            <span class="exp-name">EXp 1111</span><br>
+                            <span class="exp-date">Sep 2023 - Today</span>
+                        </div>
+                        <div class="leftExp">
+                           <a href="#">view more</a>
+                        </div>
+                    </div>
+                  
+                    <div class="exp__box">
+                        <div class="info">
+                            <h3 class="exp__subtitle">DEVELOPMENT MANGER</h3>
+                            <span class="exp-name">EXp 1111</span><br>
+                            <span class="exp-date">15 Sep 2022 - Today</span>
+                        </div>
+                        <div class="leftExp">
+                           <a href="#">view more</a>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">EMAIL</h3>
+                        <span class="contact__text">gmail@gmail.com</span><br>
+                        <span class="contact__text">gmail2@gmail.com</span>
+
+                        <h3 class="contact__subtitle">PHONE</h3>
+                        <span class="contact__text">+000 00 000 000</span>
+
+                        <h3 class="contact__subtitle">ADRESS</h3>
+                        <span class="contact__text">Paris</span>
+                    </div>
+
+                    <div class="contact__form">
+                        <div class="contact__inputs">
+                            <input id="nom" type="text" placeholder="Name" class="contact__input">
+                            <input id="email" type="mail" placeholder="Email" class="contact__input">
+                        </div>
+                        <input id="subject" type="mail" placeholder="Subject" class="contact__input">
+                        <textarea name="message" id="message" placeholder="Your message" cols="0" rows="10" class="contact__input"></textarea>
+
+                        <button class="contact__button" onclick="sendEmail()">
+                            Envoyer
+                        </button>
+                        <script>
+                            (function(){
+                                emailjs.init("publicKey");
+                            })();
+                            function sendEmail(){
+                                n= document.getElementById("nom").value,
+                                e= document.getElementById("email").value,
+                                m= document.getElementById("message").value,
+                                s= document.getElementById("subject").value
+                                emailjs.send("service_key","template_key",{
+                                    subject: s,
+                                    nom: n,
+                                    email: e,
+                                    message: m,
+                                    })
+                                    .then(response=> {
+                                    console.log('SUCCESS!', response.status, response.text);
+                                    }).catch( error=> {
+                                    console.log('FAILED...', error);
+                                    });
+                            }
+
+                        </script>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer section">
+            <div class="footer__container bd-grid">
+                <div class="footer__data">
+                    <h2 class="footer__title">Name</h2>
+                    <p class="footer__text">I'm ....... and this is my personal website</p>
+                </div>
+
+                <div class="footer__data">
+                    <h2 class="footer__title">EXPLORE</h2>
+                    <ul>
+                        <li><a href="#home" class="footer__link">Home</a></li>
+                        <li><a href="#about" class="footer__link">About</a></li>
+                        <li><a href="#skills" class="footer__link">Skills</a></li>
+                        <li><a href="#projects" class="footer__link">Projects</a></li>
+                        <li><a href="#Contact" class="footer__link">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__data">
+                    <h2 class="footer__title">FOLLOW ME</h2>
+                    <a href="#" class="footer__social"><i class='bx bxl-facebook' ></i></a>
+                    <a href="#" class="footer__social"><i class='bx bxl-instagram' ></i></a>
+                </div>
+
+
+            </div>
+        </footer>
+    </body>
+</html>
